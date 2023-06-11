@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Задача 4</h1>
+    <p>
+      З клавіатури вводиться вік людини. Вивести на екран ким він є (дитиною у
+      садочку, школярем, студентом, працівником, пенсіонером).
+    </p>
+    <script>
+          // Крок 0. Вводимо позначення
+          // Вік людини - age
+          //Крок 1. Введення величин
+      var age = parseInt(prompt ('Ваш вік'))
+      if  (age <=  6)
+           alert ('Дитина в садочку')
+      
+    else if    (age  <= 17 )
+             alert('Школьник')
+      
+   else  if    ( age  <= 23)
+             alert ('Студент')
+     
+   else  if  (age  <= 60)
+               alert ('Працівник')
+              
+    else  if  (age => 61)
+       alert ('Пенсіонер')
+      
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Задача 2</h1>
+    <p> 
+        З клавіатури вводиться ціна товару і кількість грошей.
+         Якщо грошей не вистачає то відмовляємо у покупці, інакше, 
+         якщо ще залишаються гроші, то пропонуємо купити лотерею за 4 грн.
+    </p>
+    <script>
+        //Вводимо значення
+        // ціна товар -- priceGoods
+        // деньги -- userMoney
+        const PRICE_GOODS = 300
+        let userMoney = parseFloat(prompt('Скільки маєте грошенят?'))
+if (userMoney < PRICE_GOODS) {
+    alert ('Вам відмовлено!')
+}
+ else if
+   (userMoney => PRICE_GOODS)
+alert ('Пропонуємо купити лотерею за 4 гривні! ')
+    </script>
+</body>
+</html>
